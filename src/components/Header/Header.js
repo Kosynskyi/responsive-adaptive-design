@@ -1,11 +1,13 @@
 import { useState } from 'react';
 import { useMedia } from 'react-use';
+import { GiHamburgerMenu } from 'react-icons/gi';
+
 import Container from 'components/Container';
 import Logo from 'components/Logo';
 import UserNavigation from 'components/UserNavigation';
 import ButtonIcon from 'components/ButtonIcon';
-import { StyledHeader, BurgerMenu } from './Header.styled.js';
-import MobileNavigation from 'components/MobileNavigation/MobileNavigation.js';
+import MobileNavigation from 'components/MobileNavigation';
+import { StyledHeader, MenuClose } from './Header.styled.js';
 
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -17,22 +19,24 @@ const Header = () => {
 
   return (
     <Container>
-      <StyledHeader>
-        {openMenu ? (
-          <MobileNavigation onClick={handleCloseMenu} />
-        ) : (
-          <>
-            <Logo />
-            {isNarrow ? (
-              <ButtonIcon type="button" onClick={handleOpenMenu}>
-                <BurgerMenu size={44} />
-              </ButtonIcon>
+      {isNarrow ? (
+        <StyledHeader>
+          <Logo />
+          <ButtonIcon type="button" onClick={handleOpenMenu}>
+            {openMenu ? (
+              <MenuClose size={40} />
             ) : (
-              <UserNavigation />
+              <GiHamburgerMenu size={40} color="red" />
             )}
-          </>
-        )}
-      </StyledHeader>
+          </ButtonIcon>
+          <MobileNavigation isOpen={openMenu} onCloseMenu={handleCloseMenu} />
+        </StyledHeader>
+      ) : (
+        <StyledHeader>
+          <Logo />
+          <UserNavigation />
+        </StyledHeader>
+      )}
     </Container>
   );
 };

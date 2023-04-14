@@ -1,13 +1,17 @@
 import styled from 'styled-components';
-import { GiHamburgerMenu } from 'react-icons/gi';
+import { GrClose } from 'react-icons/gr';
 
 export const StyledHeader = styled.header`
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  padding: 10px 0;
+  z-index: 100;
 `;
 
-export const BurgerMenu = styled(GiHamburgerMenu)`
-  color: blue;
+export const MenuClose = styled(GrClose)`
+  & > path {
+    stroke: red;
+  }
 `;
