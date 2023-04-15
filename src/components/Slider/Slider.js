@@ -19,6 +19,7 @@ const Slider = () => {
       <SliderWrapper>
         <SliderTitle>Flower gallery</SliderTitle>
         <StyledSwiper
+          initialSlide={2}
           effect={'coverflow'}
           rewind={true}
           grabCursor={true}
