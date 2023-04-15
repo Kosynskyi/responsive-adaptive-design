@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/responsive-adaptive-design/static/css/main.f8cab383.css",
+    "main.js": "/responsive-adaptive-design/static/js/main.ac4f5e70.js",
+    "index.html": "/responsive-adaptive-design/index.html",
+    "main.f8cab383.css.map": "/responsive-adaptive-design/static/css/main.f8cab383.css.map",
+    "main.ac4f5e70.js.map": "/responsive-adaptive-design/static/js/main.ac4f5e70.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8cab383.css",
+    "static/js/main.ac4f5e70.js"
+  ]
+}
