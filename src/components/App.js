@@ -1,6 +1,7 @@
 import Header from './Header';
 import Cards from './Cards';
 import Slider from './Slider';
+import Map from './Map/Map';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Cards />
       <Slider />
+      <Map />
     </>
   );
 }
