@@ -1,23 +1,24 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCoverflow, Navigation, Pagination } from 'swiper';
-
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
 import { sliderImages } from 'data/dataSlider';
 import Container from 'components/Container';
-
-import './Slider.css';
-import { SliderWrapper } from './Slider.styled';
+import {
+  SliderWrapper,
+  SliderTitle,
+  StyledSwiper,
+  StyledSwiperSlide,
+  SwiperImage,
+} from './Slider.styled';
 
 const Slider = () => {
   return (
     <Container>
       <SliderWrapper>
-        <h2>Flower gallery</h2>
-        <Swiper
+        <SliderTitle>Flower gallery</SliderTitle>
+        <StyledSwiper
           effect={'coverflow'}
           rewind={true}
           grabCursor={true}
@@ -35,11 +36,11 @@ const Slider = () => {
           modules={[EffectCoverflow, Pagination, Navigation]}
         >
           {sliderImages.map(({ item, id }) => (
-            <SwiperSlide key={id}>
-              <img src={item} alt={`flower_${id}`} />
-            </SwiperSlide>
+            <StyledSwiperSlide key={id}>
+              <SwiperImage src={item} alt={`flower_${id}`} />
+            </StyledSwiperSlide>
           ))}
-        </Swiper>
+        </StyledSwiper>
       </SliderWrapper>
     </Container>
   );
