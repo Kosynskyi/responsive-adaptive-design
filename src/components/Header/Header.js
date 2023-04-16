@@ -7,21 +7,35 @@ import Logo from 'components/Logo';
 import UserNavigation from 'components/UserNavigation';
 import ButtonIcon from 'components/ButtonIcon';
 import MobileNavigation from 'components/MobileNavigation';
-import { StyledHeader, MenuClose } from './Header.styled.js';
+import {
+  StyledHeader,
+  MenuClose,
+  BurgerContainer,
+  Burger,
+} from './Header.styled.js';
 
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
+
   const isNarrow = useMedia('(max-width: 767px)');
 
   const handleOpenMenu = () => setOpenMenu(prev => !prev);
 
   const handleCloseMenu = () => setOpenMenu(prev => !prev);
 
+  const toggleBurgerMenu = () => setOpenMenu(prev => !prev);
+
   return (
     <Container>
       {isNarrow ? (
         <StyledHeader>
           <Logo />
+          <BurgerContainer
+            className={openMenu && 'active'}
+            onClick={toggleBurgerMenu}
+          >
+            <Burger></Burger>
+          </BurgerContainer>
           <ButtonIcon type="button" onClick={handleOpenMenu}>
             {openMenu ? (
               <MenuClose size={40} />
