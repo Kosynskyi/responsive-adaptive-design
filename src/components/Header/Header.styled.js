@@ -16,7 +16,7 @@ export const MenuClose = styled(GrClose)`
   }
 `;
 
-export const BurgerContainer = styled.span`
+export const BurgerContainer = styled.div`
   display: flex;
   position: relative;
   z-index: 50;

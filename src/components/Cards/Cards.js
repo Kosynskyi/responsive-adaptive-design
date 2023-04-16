@@ -4,6 +4,7 @@ import { TiArrowSortedDown, TiArrowSortedUp } from 'react-icons/ti';
 import Container from 'components/Container';
 import { dataCards } from 'data/dataCards';
 import {
+  CardSection,
   CardList,
   CardItem,
   FakeImg,
@@ -22,35 +23,37 @@ const Cards = () => {
   };
 
   return (
-    <Container>
-      <CardList>
-        {dataCards.map(({ id, title, description, text }) => (
-          <CardItem key={id}>
-            <FakeImg></FakeImg>
-            <Title>{title}</Title>
+    <CardSection>
+      <Container>
+        <CardList>
+          {dataCards.map(({ id, title, description, text }) => (
+            <CardItem key={id}>
+              <FakeImg></FakeImg>
+              <Title>{title}</Title>
 
-            {isNarrow ? (
-              <>
-                <DescrWrapper onClick={() => toggleDescr(id)}>
+              {isNarrow ? (
+                <>
+                  <DescrWrapper onClick={() => toggleDescr(id)}>
+                    <Description>{description}</Description>
+                    {id === currentDescr ? (
+                      <TiArrowSortedUp />
+                    ) : (
+                      <TiArrowSortedDown />
+                    )}
+                  </DescrWrapper>
+                  {id === currentDescr && <Text>{text}</Text>}
+                </>
+              ) : (
+                <>
                   <Description>{description}</Description>
-                  {id === currentDescr ? (
-                    <TiArrowSortedUp />
-                  ) : (
-                    <TiArrowSortedDown />
-                  )}
-                </DescrWrapper>
-                {id === currentDescr && <Text>{text}</Text>}
-              </>
-            ) : (
-              <>
-                <Description>{description}</Description>
-                <Text>{text}</Text>
-              </>
-            )}
-          </CardItem>
-        ))}
-      </CardList>
-    </Container>
+                  <Text>{text}</Text>
+                </>
+              )}
+            </CardItem>
+          ))}
+        </CardList>
+      </Container>
+    </CardSection>
   );
 };
 

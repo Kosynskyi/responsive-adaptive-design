@@ -36,6 +36,7 @@ const Header = () => {
           >
             <Burger></Burger>
           </BurgerContainer>
+          <p style={{ marginLeft: 10 }}>or</p>
           <ButtonIcon type="button" onClick={handleOpenMenu}>
             {openMenu ? (
               <MenuClose size={40} />

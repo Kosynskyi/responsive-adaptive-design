@@ -1,6 +1,17 @@
 import styled from 'styled-components';
 import { breakpoints } from 'services/mixins/mixins';
 
+export const CardSection = styled.section`
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(236, 232, 157, 1) 0%,
+    rgba(64, 83, 15, 1) 40%,
+    rgba(24, 161, 164, 1) 100%
+  );
+`;
+
 export const CardList = styled.ul`
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -38,6 +49,10 @@ export const FakeImg = styled.div`
 export const Title = styled.h2`
   text-align: center;
   margin-bottom: 10px;
+
+  @media ${breakpoints.minTablet} {
+    color: rgba(255, 255, 255, 0.9);
+  }
 `;
 
 export const DescrWrapper = styled.div`
@@ -53,6 +68,14 @@ export const DescrWrapper = styled.div`
 export const Description = styled.h3`
   margin-bottom: 10px;
   text-align: center;
+
+  @media ${breakpoints.minTablet} {
+    color: rgba(255, 255, 255, 0.7);
+  }
 `;
 
-export const Text = styled.p``;
+export const Text = styled.p`
+  @media ${breakpoints.minTablet} {
+    color: rgba(255, 255, 255, 0.5);
+  }
+`;
