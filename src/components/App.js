@@ -3,6 +3,11 @@ import Cards from './Cards';
 import Slider from './Slider';
 import Map from './Map/Map';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
+
 function App() {
   return (
     <>
@@ -10,6 +15,19 @@ function App() {
       <Cards />
       <Slider />
       <Map />
+      <div
+        style={{
+          padding: '30px',
+          outline: '1px solid yellow',
+        }}
+      >
+        <div
+          data-aos="fade-up"
+          data-aos-offset="0"
+          data-aos-anchor-placement="top-bottom"
+          style={{ width: '100px', height: '100px', backgroundColor: 'red' }}
+        ></div>
+      </div>
     </>
   );
 }
