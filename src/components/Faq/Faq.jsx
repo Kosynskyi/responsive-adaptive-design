@@ -17,6 +17,10 @@ const Faq = () => {
     console.log(777);
   };
 
+  const question1 = t('currencyConversation', { returnObjects: true });
+
+  console.log('question1', question1);
+
   return (
     <Container style={{ paddingBottom: '100px' }}>
       <StyledFaqMainTitle>F.A.Q.</StyledFaqMainTitle>
