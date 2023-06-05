@@ -1,0 +1,226 @@
+{
+  "title": {
+    "registrationAndSetting": "1. REGISTRATION AND SETTING UP A PERSONAL ACCOUNT.",
+    "integration": "2. INTEGRATION.",
+    "paymentsAndInvoicing": "3. CRYPTOCURRENCY PAYMENTS AND INVOICING.",
+    "currencyConversation": "4. CURRENCY CONVERSION.",
+    "costAndCommission": "5. COST AND COMMISSION.",
+    "other": "6. OTHER."
+  },
+  "registrationAndSetting": [
+    {
+      "question": {
+        "answer": "1.1. Do I really need an account to use your services?",
+        "title": "Yes. To use Acceptcoin, you must definitely register. Without registration, you will not be able to connect your project to our cryptocurrency gateway."
+      }
+    },
+    {
+      "question": {
+        "answer": "1.2. What do I need to confirm my Acceptcoin account?",
+        "title": "It only requires your email address, that's all. But you have to verify your email address to confirm that it's really you."
+      }
+    },
+    {
+      "question": {
+        "answer": "1.3. Do I need any ID and KYC to verify my account?",
+        "title": "Yes, you need to provide your ID and KYC when creating an account on Acceptcoin. You need to perform an identity check, which will only take a few minutes. This is necessary to prevent any fraudulent activity."
+      }
+    },
+    {
+      "question": {
+        "answer": "1.4. How do I connect my website to your gateway?",
+        "title": "To connect the project to Acceptcoin, first register in the system, confirm the creation of an account. Next, you need to log in to your personal account and click the \"Create a project\" button, add the name of your project (company), as well as the website address."
+      }
+    },
+    {
+      "question": {
+        "answer": "1.5. Can I connect multiple projects?",
+        "title": "Yes, you can easily connect an unlimited number of projects to Acceptcoin."
+      }
+    },
+    {
+      "question": {
+        "answer": "1.6. Can I use the same key for multiple projects?",
+        "title": "No, each project must be connected individually, respectively, a separate and unique key will be generated for each of them to integrate Acceptcoin to your project."
+      }
+    },
+    {
+      "question": {
+        "answer": "1.7. Where can I enable coins on the site?",
+        "title": "Log in to your Acceptcoin personal account and go to the \"Project\" section. In this section, select the necessary project and enable the necessary cryptocurrency on the \"Payment Method\" tab."
+      }
+    },
+    {
+      "question": {
+        "answer": "1.8. What happens if I lose or forget my password?",
+        "title": "It's not such a big problem if you forget your password, you just need to do one thing: go to the login page of your personal account and click the \"Forgot password\" button. Next, you will receive an email to your e-mail, which will contain instructions on how to change your password."
+      }
+    }
+  ],
+  "integration": [
+    {
+      "question": {
+        "answer": "2.1. Do you have your own API?",
+        "title": "Yes, we have an API for all products."
+      }
+    },
+    {
+      "question": {
+        "answer": "2.2. Can we integrate White Label?",
+        "title": "Yes, our API will allow you to fully use our payment processing solution."
+      }
+    },
+    {
+      "question": {
+        "answer": "2.3. How do I enable Acceptcoin on my website?",
+        "title": "You can read our integration guide here: (link to API/Manual). If you have any additional questions regarding the integration process, you can ask them to our support service at the support e-mail address."
+      }
+    },
+    {
+      "question": {
+        "answer": "2.4. How do I add a cryptocurrency payment button to my website?",
+        "title": "You can find this information in our section \"Button Generator\" (link to the corresponding section of the site)."
+      }
+    },
+    {
+      "question": {
+        "answer": "2.5. Can I use Acceptcoin with my WooCommerce/Shopify/Magento/OpenCart/Joomla store?",
+        "title": "Yes, this can be done using our e-commerce plugins (link to Plugins page)."
+      }
+    },
+    {
+      "question": {
+        "answer": "2.6. I don't have an online store. Can I use Acceptcoin in my industry?",
+        "title": "You can discuss the possibility of implementing our payment solution in your field of activity via the support/admin e-mail."
+      }
+    },
+    {
+      "question": {
+        "answer": "2.7. How can I contact the Acceptcoin support service?",
+        "title": "To contact our support service, you can use the following address: support email."
+      }
+    },
+    {
+      "question": {
+        "answer": "2.8. Do you have plugins?",
+        "title": "Yes! We have plugins for e-commerce. We have successfully integrated with Wordpress, Joomla, Magento, OpenCart. You can easily find our plugins on the marketplaces of these sites, as well as install them using our API. This list of plugins is not final, we are constantly working on integrating new ones."
+      }
+    }
+  ],
+  "paymentsAndInvoicing": [
+    {
+      "question": {
+        "answer": "3.1. What cryptocurrencies can I accept on my website?",
+        "title": "Currently, we support 60 of the most popular cryptocurrencies, such as: Bitcoin, Bitcoin Cash, Litecoin, Ethereum, Dash, Ripple, Tether, Solana, Uniswap, etc. This list will be expanded in the future with the addition of new coins and tokens to meet customer needs. You can see all supported cryptocurrencies on the next page (link to the Coin and Token List page)."
+      }
+    },
+    {
+      "question": {
+        "answer": "3.2. How often does Acceptcoin make settlements with sellers?",
+        "title": "You create an application for the payment of your balance yourself, so you can perform this action at any time convenient for you."
+      }
+    },
+    {
+      "question": {
+        "answer": "3.3. How long does it take to confirm a transaction?",
+        "title": "It all depends on the chosen cryptocurrency, often the confirmation of the transaction takes from a few minutes to half an hour."
+      }
+    },
+    {
+      "question": {
+        "answer": "3.4. Which wallets are supported for payments in cryptocurrency?",
+        "title": "All wallets are supported."
+      }
+    },
+    {
+      "question": {
+        "answer": "3.5. Should I have a minimum number of transactions per month?",
+        "title": "No, there is no minimum."
+      }
+    },
+    {
+      "question": {
+        "answer": "3.6. How to choose which cryptocurrencies to accept?",
+        "title": "We can recommend you to use the most common cryptocurrencies: BTC, LTC, BCH, ETH, XRP, USDT and DOGE. You need to know your customers and the cryptocurrencies they use most often."
+      }
+    },
+    {
+      "question": {
+        "answer": "3.7. Is the payment guaranteed?",
+        "title": "Yes, Acceptcoin guarantees the payment of funds for all confirmed transactions."
+      }
+    },
+    {
+      "question": {
+        "answer": "3.8. Is the transaction process fully automated?",
+        "title": "Yes, the Acceptcoin crypto gateway is fully automated from start to finish. All funds received in crypto are automatically credited to your wallet. You can also convert the earned crypto into fiat. Manual intervention is not required."
+      }
+    }
+  ],
+  "currencyConversation": [
+    {
+      "question": {
+        "answer": "4.1. How do I convert the coins I receive into BTC or any other cryptocurrency?",
+        "title": "Our service provides you with the opportunity to convert cryptos into the currency you need, whether it is another crypto or fiat money."
+      }
+    },
+    {
+      "question": {
+        "answer": "4.2. Which fiat currencies do you support?",
+        "title": "Currently we support the following currencies: EUR, USD, UAH. This list will be constantly updated. Although you can contact us at the support or admin email address if you want to discuss adding another fiat currency for your business."
+      }
+    }
+  ],
+  "costAndCommision": [
+    {
+      "question": {
+        "answer": "5.1. What is the Acceptcoin Commission?",
+        "title": "Acceptcoin charges a single total transaction fee. No hidden fees."
+      }
+    },
+    {
+      "question": {
+        "answer": "5.2. What are the transaction fees?",
+        "title": "To check the commissions for your business, you need to contact the Acceptcoin administration or visit the Prices section."
+      }
+    },
+    {
+      "question": {
+        "answer": "5.3. What are the conversion fees?",
+        "title": "You can find all the details about the commissions by contacting our administration admin's e-mail."
+      }
+    }
+  ],
+  "other": [
+    {
+      "question": {
+        "answer": "6.1. Why should I accept payments in cryptocurrency?",
+        "title": "Cryptocurrency consumers are one of the fastest growing segments in the world: more than 300 million wallets have been issued to date. Studies show that cryptocurrency consumers spend 2 times more money than a typical credit card consumer, and that 40% are actually new customers. Cryptocurrency is more efficient than traditional payment methods because fewer parties are involved in the payment process."
+      }
+    },
+    {
+      "question": {
+        "answer": "6.2. Is it profitable to start accepting payments in cryptocurrencies?",
+        "title": "Since the cryptocurrency has shown its wonderful results on the market, all large firms are ready to accept payments in cryptocurrency. Some large companies have already started accepting payments in cryptocurrency. The adoption of cryptotechnology will open the doors for those who want to spread their activities around the world, but are afraid of high foreign exchange rates."
+      }
+    },
+    {
+      "question": {
+        "answer": "6.3. What services do you provide?",
+        "title": "Acceptcoin is primarily a payment gateway for accepting cryptocurrency payments for goods or services on the seller's website. Also, with the help of Acceptcoin, you can make mass payments (batches), for example, to pay salaries to your employees, pay commissions for goods /services, etc."
+      }
+    },
+    {
+      "question": {
+        "answer": "6.4. Do you have an affiliate program?",
+        "title": "Yes! Each Acceptcoin client has a unique referral link. You can share this link with everyone. Click here (link to the Referral Program of the site) to learn more about the referral program."
+      }
+    },
+    {
+      "question": {
+        "answer": "6.5. The FAQ does not have an answer - what to do?",
+        "title": "If you have any questions that you have while working with the service, please contact the site administration. You can write to the support's e-mail address. Also on the \"Contacts\" page you can fill out a feedback form, after receiving which our representative will contact you instantly. Send us your questions and suggestions, we are always happy to provide more detailed information and help each of you!"
+      }
+    }
+  ]
+}

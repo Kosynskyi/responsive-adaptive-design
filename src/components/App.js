@@ -1,8 +1,9 @@
 import Header from './Header';
 import Cards from './Cards';
+import Faq from './Faq/Faq';
 import Slider from './Slider';
 import Map from './Map/Map';
-
+import '../i18n';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -28,6 +29,7 @@ function App() {
           style={{ width: '100px', height: '100px', backgroundColor: 'red' }}
         ></div>
       </div>
+      <Faq />
     </>
   );
 }
