@@ -17,7 +17,7 @@ const Faq = () => {
     console.log(777);
   };
 
-  const question1 = t('currencyConversation', { returnObjects: true });
+  const question1 = t('registrationAndSetting', { returnObjects: true });
 
   console.log('question1', question1);
 
@@ -28,7 +28,7 @@ const Faq = () => {
       <ul>
         <StyledFaqItem onClick={toggleOpen} isOpen={isOpen}>
           <StyledFaqItemTitle isOpen={isOpen}>
-            How to register on Acceptcoin?
+            How to register on Qweqwe?
           </StyledFaqItemTitle>
           {isOpen && (
             <StyledFaqText>

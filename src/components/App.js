@@ -6,6 +6,7 @@ import Map from './Map/Map';
 import '../i18n';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Chat from './Chat/Chat';
 
 AOS.init();
 
@@ -30,6 +31,7 @@ function App() {
         ></div>
       </div>
       <Faq />
+      <Chat />
     </>
   );
 }
