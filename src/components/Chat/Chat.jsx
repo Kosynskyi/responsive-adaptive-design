@@ -64,15 +64,23 @@ const dialogs = [
     message: 'Message from client 5',
     role: 'client',
   },
+  {
+    id: 12,
+    message: 'Message from manager 5',
+    role: 'manager',
+  },
+  {
+    id: 13,
+    message: 'Message from manager 6',
+    role: 'manager',
+  },
 ];
 
 const Chat = () => {
   const [lastClientMessage, setLastClientMessage] = useState(null);
   const [lastManagerMessage, setLastManagerMessage] = useState(null);
 
-  console.log('dialogs', dialogs);
-
-  const findLastAuthorIdx = () => {
+  const findLastAuthorIndex = () => {
     dialogs.forEach((item, idx) =>
       item.role === 'client'
         ? setLastClientMessage(idx)
@@ -81,7 +89,7 @@ const Chat = () => {
   };
 
   useEffect(() => {
-    findLastAuthorIdx();
+    findLastAuthorIndex();
   }, []);
 
   console.log('lastClientMessage', lastClientMessage);

@@ -35,15 +35,15 @@ export const StyledChatItem = styled.li`
       /* outline: 1px solid red; */
       content: '';
       position: absolute;
-      bottom: -16px;
-      left: -3px;
+      bottom: -15px;
+      left: -4px;
       width: 0;
       height: 0;
       border-top: 10px solid transparent;
       border-right: 10px solid transparent;
       border-bottom: 10px solid #dbdcdc;
       border-left: 10px solid #dbdcdc;
-      transform: rotate(105deg);
+      transform: rotate(115deg);
     }
   }
 
@@ -55,7 +55,7 @@ export const StyledChatItem = styled.li`
 
       content: '';
       position: absolute;
-      bottom: -16px;
+      bottom: -15px;
       right: -3px;
       width: 0;
       height: 0;
