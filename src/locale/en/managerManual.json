@@ -1,0 +1,363 @@
+{
+  "meta": {
+    "title": "Helpful Information on Using Coin24.com.ua Service",
+    "description": "In this section, you will find helpful information about the operation of the Coin24.com.ua exchange service."
+  },
+  "contentArticle": "Contents:",
+  "1": {
+    "title": "1. Logging into Your Personal Account:",
+    "1_1": {
+      "title": "Logging in with a Google Account:",
+      "p1": "You can only log into the manager's account using a specially provided Google account.",
+      "list": {
+        "p1": "To do this, go to the <NavLink to=\"/login\" className=\"default-link\">login page</NavLink>;",
+        "p2": "Then click on the Google icon;",
+        "p3": "Enter the six-digit two-factor authentication code;",
+        "p4": "After clicking the \"Confirm\" button, you will successfully log into your personal account."
+      }
+    }
+  },
+  "2": {
+    "title": "2. Working with Cash Requisitions:",
+    "2_1": {
+      "title": "How to process a cash requisition?",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select the \"Profile\" option;",
+        "p2": "Go to the \"<NavLink to=\"/panel/requisitions\" className=\"default-link\">Requisitions</NavLink>\" tab;",
+        "p3": "Select the cash requisition you need;",
+        "p4": "Click the \"Details\" button;",
+        "p5": "Click the \"Start Processing\" button;",
+        "p6": "Select the network direction;",
+        "p7": "Fill in the attributes of the payout point;",
+        "p8": "Click the \"Confirm Data\" button;",
+        "p9": "Then click \"Generate Invoice\"."
+      }
+    },
+    "2_2": {
+      "title": "How to cancel a cash requisition?",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select the \"Profile\" option;",
+        "p2": "Go to the \"<NavLink to=\"/panel/requisitions\" className=\"default-link\">Requisitions</NavLink>\" tab;",
+        "p3": "Select the cash requisition you want to cancel;",
+        "p4": "Click the \"Details\" button;",
+        "p5": "Then click the \"Cancel\" button;",
+        "p6": "Confirm your action by clicking \"Yes\"."
+      }
+    }
+  },
+  "3": {
+    "title": "3. Bank Card Verification:",
+    "3_1": {
+      "title": "How to verify a bank card?",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select the \"Profile\" option;",
+        "p2": "Go to the \"<NavLink to=\"/panel/card-verification\" className=\"default-link\">Card Verification</NavLink>\" tab;",
+        "p3": "Go to the details of the card you need;",
+        "p4": "Make sure the bank card verification request complies with all the rules of the website;",
+        "p5": "Click the \"Verify\" button;",
+        "p6": "Confirm your action by clicking \"Yes\"."
+      }
+    },
+    "3_2": {
+      "title": "How to cancel bank card verification?",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select the \"Profile\" option;",
+        "p2": "Go to the \"<NavLink to=\"/panel/card-verification\" className=\"default-link\">Card Verification</NavLink>\" tab;",
+        "p3": "Go to the details of the card you need;",
+        "p4": "Click the \"Cancel\" button;",
+        "p5": "In the \"Note\" field, enter the reason for the rejection; Or you can choose a pre-made template of reasons;",
+        "p6": "Confirm your action by clicking \"Yes\"."
+      }
+    },
+    "3_3": {
+      "title": "How to edit a customer's card?",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select the \"Profile\" option;",
+        "p2": "Go to the details of the card you need;",
+        "p3": "Click the \"Edit\" button;",
+        "p4": "In the \"Card Number\" column, you can change the customer's card number;",
+        "p5": "In the \"Expiration Date\" column, you can change the expiration date of the customer's card; You can also remove the customer's image;",
+        "p6": "Then click the \"Save\" button;"
+      }
+    }
+  },
+  "4": {
+    "title": "4. Creating a Request for a Customer:",
+    "4_1": {
+      "title": "How to create a request for a customer?",
+      "p1": "You can create a request for a customer. After creation, the request will automatically appear in the customer's personal account.",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select the \"Profile\" option;",
+        "p2": "Go to the \"<NavLink to=\"/panel/card-verification\" className=\"default-link\">Clients</NavLink>\" tab;",
+        "p3": "Select the customer you are interested in;",
+        "p4": "Invoke the context menu of the customer you want to create a request for; (The menu appears after clicking on the vertical ellipsis next to the manager's name.);",
+        "p5": "Click \"More\";",
+        "p6": "Click the \"Create User Request\" button;",
+        "p7": "Select the direction (pair) on the calculator;",
+        "p8": "Specify the amount;",
+        "p9": "Click the \"Exchange\" button;",
+        "p10": "Fill in the customer's details;",
+        "p11": "Click the checkbox (button) \"<NavLink to=\"/useterms\" className=\"default-link\">I have read and agree to the terms of service</NavLink>\";",
+        "p12": "Click the \"Confirm\" button;"
+      },
+      "alert": "Attention! You will not be able to create a request in some directions if the customer does not have document verification."
+    }
+  },
+  "5": {
+    "title": "5. Reviews:",
+    "5_1": {
+      "title": "How to publish a review?",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select the \"Profile\" option;",
+        "p2": "Go to the \"<NavLink to=\"/panel/reviews\" className=\"default-link\">Reviews</NavLink>\" tab;",
+        "p3": "Select the review you are interested in;",
+        "p4": "Click the checkbox (button) in the \"Publication\" column."
+      }
+    },
+    "5_2": {
+      "title": "How to edit a review?",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select the \"Profile\" option;",
+        "p2": "Go to the \"<NavLink to=\"/panel/reviews\" className=\"default-link\">Reviews</NavLink>\" tab;",
+        "p3": "Select the review you are interested in;",
+        "p4": "Click the \"Edit\" button;",
+        "p5": "Edit the review and click the \"Save\" button."
+      }
+    },
+    "5_3": {
+      "title": "How to delete a review?",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select the \"Profile\" option;",
+        "p2": "Go to the \"<NavLink to=\"/panel/reviews\" className=\"default-link\">Reviews</NavLink>\" tab;",
+        "p3": "Select the review you are interested in;",
+        "p4": "Click the \"Delete\" button;",
+        "p5": "Confirm your action by clicking the \"Yes\" button."
+      }
+    }
+  },
+  "6": {
+    "title": "6. Feedback:",
+    "6_1": {
+      "title": "How to process/respond to a ticket (Feedback)?",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select the \"Profile\" option;",
+        "p2": "Go to the \"<NavLink to=\"/panel/feedbacks\" className=\"default-link\">Feedback</NavLink>\" tab;",
+        "p3": "Select the ticket you are interested in;",
+        "p4": "Click the \"Details\" button to view the ticket details;",
+        "p5": "In the \"Your Message\" field, you can write a message to the customer or choose from predefined response templates;",
+        "p6": "Then click the \"Reply\" button."
+      }
+    },
+    "6_2": {
+      "title": "How to delete a ticket (Feedback)?",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select the \"Profile\" option;",
+        "p2": "Go to the \"<NavLink to=\"/panel/feedbacks\" className=\"default-link\">Feedback</NavLink>\" tab;",
+        "p3": "Select the ticket you want to delete;",
+        "p4": "Click the \"Delete\" button;",
+        "p5": "Confirm your action by clicking the \"Yes\" button."
+      }
+    }
+  },
+  "7": {
+    "title": "7. Customer Management:",
+    "7_1": {
+      "title": "How to block a customer?",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select the \"Profile\" option;",
+        "p2": "Go to the \"<NavLink to=\"/panel/clients\" className=\"default-link\">Customers</NavLink>\" tab;",
+        "p3": "Select the customer you are interested in;",
+        "p4": "Open the context menu of the customer you want to block; (The menu appears after clicking on the three vertical dots next to the manager's name);",
+        "p5": "Click the \"Block\" button;",
+        "p6": "Confirm your action by clicking the \"Yes\" button;"
+      },
+      "alert": "After blocking, the customer will not be able to access their personal account."
+    },
+    "7_2": {
+      "title": "How to unblock a customer?",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select the \"Profile\" option;",
+        "p2": "Go to the \"<NavLink to=\"/panel/clients\" className=\"default-link\">Customers</NavLink>\" tab;",
+        "p3": "Select the customer you want to unblock;",
+        "p4": "Open the context menu of the customer you want to unblock; (The menu appears after clicking on the three vertical dots next to the manager's name);",
+        "p5": "Click the \"Unblock\" button;",
+        "p6": "Confirm your action by clicking the \"Yes\" button;"
+      }
+    },
+    "7_3": {
+      "title": "Client Details",
+      "p1": "To view detailed information about a client, follow these steps:",
+      "list": {
+        "p1": "From the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select \"Profile.\"",
+        "p2": "Go to the \"<NavLink to=\"/panel/clients\" className=\"default-link\">Clients</NavLink>\" tab.",
+        "p3": "Invoke the context menu of the client you want to learn additional information about. (The menu appears after clicking on the vertical ellipsis next to the manager's name.)",
+        "p4": "Click on the \"Details\" button."
+      },
+      "numberList": {
+        "list1": {
+          "title": "1. Requests",
+          "p1": "On this tab, you can view the client's requests. You can see:",
+          "list": {
+            "p1": "Creation date of the request",
+            "p2": "Completion date",
+            "p3": "Payment system. In this column, you see the payment method used by the client.",
+            "p4": "Payment amount, deposit amount, and currency",
+            "p5": "Status. Requests can have different statuses. For example, if the status of a request is \"New Request\" it means that the client has selected a pair, created it, but hasn't paid yet. If a request has the status \"Completed\" it means the request was successfully executed. If a request has the status \"Card Verification\" the client needs to verify the card to complete the request, and so on."
+          },
+          "p2": "You can learn more details about a request by clicking on the \"Details\" button.",
+          "p3": "You will also frequently use filters. In the filters, you can filter requests and search for the ones you need."
+        },
+        "list2": {
+          "title": "2. Referral Levels",
+          "p1": "On this tab, you can find the client's current referral levels. You can learn about the referral program at <NavLink to=\"/partners\" className=\"default-link\">this link</NavLink>."
+        },
+        "list3": {
+          "title": "3. Cashback Levels",
+          "p1": "In this section, you can find the client's current cashback level. You can learn about cashback at <NavLink to=\"/partners\" className=\"default-link\">this page</NavLink> in the \"Accrual of bonus rewards in the form of cashback\" section."
+        },
+        "list4": {
+          "title": "4. Bank Cards",
+          "p1": "On this tab, you can see the client's bank cards and the status of those cards."
+        },
+        "list5": {
+          "title": "5. Logs",
+          "p1": "On this tab, you can access the client's logs. Logs are files that contain system information about the server's operation, recording specific actions of a user or program."
+        },
+        "list6": {
+          "title": "6. Block History",
+          "p1": "In the \"Block History\" tab, you can find the reason for blocking a client, as well as the date of the block. Managers specify the reason for blocking before blocking a client."
+        }
+      }
+    }
+  },
+  "8": {
+    "title": "8. Templates for Card Verification and Feedback:",
+    "8_1": {
+      "title": "Adding a Card Verification Template",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select \"Profile\";",
+        "p2": "Go to the \"<NavLink to=\"/panel/templates\" className=\"default-link\">Response Templates</NavLink>\" page;",
+        "p3": "Click on the \"Add Template\" button;",
+        "p4": "Enter a name for the template in the \"Template Name\" field;",
+        "p5": "Enter the message in the \"Message\" field;",
+        "p6": "Click the \"Save\" button."
+      }
+    },
+    "8_2": {
+      "title": "Editing a Card Verification Template",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select \"Profile\";",
+        "p2": "Go to the \"<NavLink to=\"/panel/templates\" className=\"default-link\">Response Templates</NavLink>\" page;",
+        "p3": "Select the template you want to edit;",
+        "p4": "Click the \"Edit\" button;",
+        "p5": "Rename the template in the \"Template Name\" field;",
+        "p6": "Modify the message in the \"Message\" field;",
+        "p7": "Click the \"Save\" button."
+      }
+    },
+    "8_3": {
+      "title": "Deleting a Card Verification Template",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select \"Profile\";",
+        "p2": "Go to the \"<NavLink to=\"/panel/templates\" className=\"default-link\">Response Templates</NavLink>\" page;",
+        "p3": "Select the template you want to delete;",
+        "p4": "Click the \"Delete\" button;",
+        "p5": "Confirm your action by clicking \"Yes\"."
+      }
+    },
+    "8_4": {
+      "title": "Adding a Feedback Template",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select \"Profile\";",
+        "p2": "Go to the \"<NavLink to=\"/panel/templates\" className=\"default-link\">Response Templates</NavLink>\" page;",
+        "p3": "Switch to the \"Feedback\" tab;",
+        "p4": "Click the \"Add Template\" button;",
+        "p5": "Enter a name for the template in the \"Template Name\" field;",
+        "p6": "Enter the message in the \"Message\" field;",
+        "p7": "Select a category for the template in the \"Category\" section;",
+        "p8": "Click the \"Save\" button."
+      }
+    },
+    "8_5": {
+      "title": "Editing a Feedback Template",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select \"Profile\";",
+        "p2": "Go to the \"<NavLink to=\"/panel/templates\" className=\"default-link\">Response Templates</NavLink>\" page;",
+        "p3": "Switch to the \"Feedback\" tab;",
+        "p4": "Select the template you want to edit;",
+        "p5": "Click the \"Edit\" button;",
+        "p6": "Rename the template in the \"Template Name\" field;",
+        "p7": "Modify the message in the \"Message\" field;",
+        "p8": "You can change the template category in the dropdown menu;",
+        "p9": "Click the \"Save\" button."
+      }
+    },
+    "8_6": {
+      "title": "Deleting a Feedback Template",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select \"Profile\";",
+        "p2": "Go to the \"<NavLink to=\"/panel/templates\" className=\"default-link\">Response Templates</NavLink>\" page;",
+        "p3": "Switch to the \"Feedback\" tab;",
+        "p4": "Select the template you want to delete;",
+        "p5": "Click the \"Delete\" button;",
+        "p6": "Confirm your action by clicking \"Yes\"."
+      }
+    }
+  },
+  "9": {
+    "title": "9. Personal Account Settings:",
+    "9_1": {
+      "title": "How to change your name and surname?",
+      "p1": "You can change this information in your personal account;",
+      "p2": "To change your name or surname:",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select \"Profile\";",
+        "p2": "Go to the \"<NavLink to=\"/panel/account\" className=\"default-link\">Personal Account Settings</NavLink>\" (gear icon);",
+        "p3": "In the \"First Name\" field, change your name to the desired one;",
+        "p4": "In the \"Last Name\" field, change your surname to the desired one;",
+        "p5": "Click the \"Save\" button."
+      }
+    },
+    "9_2": {
+      "title": "How to subscribe or unsubscribe from the newsletter?",
+      "p1": "Coin24 periodically sends emails to its customers. If you do not want to receive emails from this service, you can unsubscribe from the newsletter:",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select \"Profile\";",
+        "p2": "Go to the \"<NavLink to=\"/panel/account\" className=\"default-link\">Personal Account Settings</NavLink>\" (gear icon);",
+        "p3": "Select the \"Notifications\" tab;",
+        "p4": "Click on the checkbox next to \"Newsletter\". The newsletter includes notifications about promotions and greetings or changes to the service conditions;",
+        "p5": "Click on the checkbox next to \"Service Messages\". Service messages are technical notifications about the status of your application or information related to your account;",
+        "p6": "Confirm your action by clicking \"Yes\"."
+      },
+      "p2": "You can also subscribe to the Coin24.com.ua service newsletter."
+    },
+    "9_3": {
+      "title": "How to add a profile photo (avatar)?",
+      "p1": "To add a profile photo (avatar) to your profile, follow these steps:",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select \"Profile\";",
+        "p2": "Go to the \"<NavLink to=\"/panel/account\" className=\"default-link\">Personal Account Settings</NavLink>\" (gear icon);",
+        "p3": "Click the \"Change Photo\" button;",
+        "p4": "Select the photo you want to set;"
+      },
+      "alert": "Note: Your photo should not exceed 5 MB."
+    }
+  },
+  "10": {
+    "title": "10. Contact Us (Feedback Form).",
+    "p1": "To send a message to the administration of the exchange service, follow these steps:",
+    "p2": "To change your name or surname:",
+    "list": {
+      "p1": "Go to the <NavLink to=\"/contacts\" className=\"default-link\">Contacts</NavLink> tab;",
+      "p2": "Enter your name in the \"First Name\" field;",
+      "p3": "Enter your surname in the \"Last Name\" field;",
+      "p4": "Enter your email address in the \"E-mail\" field;",
+      "p5": "Write your message to the administration of the website in the \"Your Message\" field;",
+      "p6": "Then select the direction \"Bank Transfer\" or \"Cash Payment\" depending on the direction of the exchange your inquiry is related to;",
+      "p7": "If you chose \"Cash Payment\", select the country and city of the exchange you are interested in;",
+      "alert1": "If you are logged in to your account, the \"First Name\", \"Last Name\", and \"E-mail\" fields will be automatically filled in;",
+      "p8": "Click the \"Send\" button;",
+      "alert2": "After sending the message, wait for a response to the email address you provided."
+    }
+  }
+}

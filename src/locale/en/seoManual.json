@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "title": "User Guide for Coin24.com.ua Service",
+    "description": "In this section, you will find helpful information about the operation of the Coin24.com.ua exchange service."
+  },
+  "contentArticle": "Contents:",
+  "1": {
+    "title": "1. Logging into Your Personal Account:",
+    "1_1": {
+      "title": "Logging in with Google Account and Two-Factor Authentication;",
+      "list": {
+        "p1": "To do this, go to the <NavLink to=\"/login\" className=\"default-link\">login</NavLink> page;",
+        "p2": "Then click on the Google icon;",
+        "p3": "Next, enter the six-digit two-factor authentication code;",
+        "p4": "After clicking the \"Confirm\" button, you will successfully log into your personal account."
+      }
+    }
+  },
+  "2": {
+    "title": "2. Articles:",
+    "2_1": {
+      "title": "Creating an Article;",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select the \"Profile\" menu item;",
+        "p2": "Go to the \"<NavLink to=\"/panel/news\" className=\"default-link\">Articles</NavLink>\" tab;",
+        "p3": "Click the \"Add Article\" button;",
+        "p4": "In the \"Title\" field, enter the title of the article;",
+        "p5": "In the \"Description\" field, describe the article;",
+        "p6": "In the \"Content\" field, add information or photos for the article;",
+        "p7": "Click \"Add Article\";"
+      },
+      "p1": "If necessary, you can add a photo for this article and fill in the fields: \"Image Alt Tag\", \"Select Cryptocurrency\", \"Meta Title\", \"Meta Description\", \"Author\";",
+      "p2": "Attention! You can change the URL of the article if the news is not published."
+    },
+    "2_2": {
+      "title": "Editing an Article;",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select the \"Profile\" menu item;",
+        "p2": "Go to the \"<NavLink to=\"/panel/news\" className=\"default-link\">Articles</NavLink>\" tab;",
+        "p3": "Select the article you need;",
+        "p4": "Click the \"Edit\" button;",
+        "p5": "You can then change the necessary information in the article;",
+        "p6": "Click the \"Save\" button;"
+      },
+      "p1": "Attention! You can change the URL of the article if the news is not published."
+    },
+    "2_3": {
+      "title": "Publishing an Article;",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select the \"Profile\" menu item;",
+        "p2": "Go to the \"<NavLink to=\"/panel/news\" className=\"default-link\">Articles</NavLink>\" tab;",
+        "p3": "Select the article you need;",
+        "p4": "Click the checkbox (button) in the \"Publication\" column;",
+        "p5": "Confirm your action by clicking \"Yes\".",
+        "p6": "Click the \"Save\" button;"
+      },
+      "p1": "After publishing the article, it will appear in public access on <NavLink to=\"/news\" className=\"default-link\">this page</NavLink>."
+    },
+    "2_4": {
+      "title": "Deleting an Article;",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select the \"Profile\" menu item;",
+        "p2": "Go to the \"<NavLink to=\"/panel/news\" className=\"default-link\">Articles</NavLink>\" tab;",
+        "p3": "Select the article you need;",
+        "p4": "Click the \"Delete\" button;",
+        "p5": "Confirm your action by clicking \"Yes\";"
+      },
+      "p1": "After these actions, the article will be deleted."
+    }
+  },
+  "3": {
+    "title": "3. Cities:",
+    "3_1": {
+      "title": "Adding a City;",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select the \"Profile\" menu item;",
+        "p2": "Go to the \"Cities\" tab;",
+        "p3": "Click the \"Add City\" button;",
+        "p4": "In the \"Select Country\" select, choose the country you want to add;",
+        "p5": "Then in the \"Select City\" select, choose the city you want to add;",
+        "p6": "In the \"Description\" field, add a description for the city;",
+        "p7": "In the \"Meta Description\" field, add a meta description for the city;",
+        "p8": "In the \"URL\" field, enter the link at which this article will be displayed;",
+        "p9": "Click the \"Save\" button."
+      }
+    },
+    "3_2": {
+      "title": "Editing a City;",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select the \"Profile\" menu item;",
+        "p2": "Go to the \"Cities\" tab;",
+        "p3": "Select the city you need;",
+        "p4": "Click the \"Edit\" button;",
+        "p5": "You can then change the necessary information in the city;",
+        "p6": "After making the changes, click the \"Save\" button."
+      }
+    },
+    "3_3": {
+      "title": "Publishing a City;",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select the \"Profile\" menu item;",
+        "p2": "Go to the \"Cities\" tab;",
+        "p3": "Select the city you need;",
+        "p4": "Click the checkbox (button) in the \"Publication\" column;",
+        "p5": "Confirm your action by clicking \"Yes\";",
+        "p6": "After publishing the city, it will appear in public access on <NavLink to=\"/cities\" className=\"default-link\">this page</NavLink>."
+      }
+    },
+    "3_4": {
+      "title": "Deleting a City;",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select the \"Profile\" menu item;",
+        "p2": "Go to the \"Cities\" tab;",
+        "p3": "Select the city you need;",
+        "p4": "Click the \"Delete\" button;",
+        "p5": "Confirm your action by clicking \"Yes\";"
+      },
+      "p1": "After these actions, the city will be deleted."
+    }
+  },
+  "4": {
+    "title": "4. Traffic Link:",
+    "4_1": {
+      "title": "Creating a Traffic Link;",
+      "list": {
+        "p1": "Go to the page to which you want to attach a traffic link;",
+        "p2": "Copy the URL (link) of the page;",
+        "p3": "Go to the main page of the Coin24 website (click on the logo);",
+        "p4": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select the \"Profile\" menu item;",
+        "p5": "Go to the \"Reports\" tab;",
+        "p6": "Click the \"Generate Link\" button;",
+        "p7": "In the \"Enter Website Name\" field, enter the name of the traffic or resource on which it will be placed;",
+        "p8": "In the \"Enter Link\" field, paste the URL you copied earlier, which will be used to track the traffic;",
+        "p9": "Then click the \"Save\" button."
+      }
+    },
+    "4_2": {
+      "title": "Deleting a Traffic Link;",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select the \"Profile\" menu item;",
+        "p2": "Go to the \"Reports\" tab;",
+        "p3": "Select the traffic link you want to delete;",
+        "p4": "Click the \"Delete\" button;",
+        "p5": "Confirm your action by clicking \"Yes\";"
+      },
+      "p1": "Attention! You cannot delete a traffic link if a client has registered using that link."
+    }
+  },
+  "5": {
+    "title": "5. Personal Account Settings:",
+    "5_1": {
+      "title": "How to change your name and surname?",
+      "p1": "You can change this information in your personal account.",
+      "p2": "To change your name or surname:",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select the \"Profile\" menu item;",
+        "p2": "Go to the <NavLink to=\"/panel/account\" className=\"default-link\">personal account settings</NavLink> (gear icon);",
+        "p3": "In the \"Name\" field, change your name to the desired one;",
+        "p4": "In the \"Surname\" field, change your surname to the desired one;",
+        "p5": "Click the \"Save\" button."
+      }
+    },
+    "5_2": {
+      "title": "How to subscribe or unsubscribe from newsletters?",
+      "p1": "Coin24 periodically sends emails to its clients. If you do not wish to receive emails from this service, you can unsubscribe from the newsletter:",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select the \"Profile\" menu item;",
+        "p2": "Go to the <NavLink to=\"/panel/account\" className=\"default-link\">personal account settings</NavLink> (gear icon);",
+        "p3": "Select the \"Messages\" tab;",
+        "p4": "Click the checkbox \"Newsletter\". The newsletter includes messages about promotions and notifications about changes in the service;",
+        "p5": "Click the checkbox \"Service Messages\". Service messages are technical messages about the status of your application or information about events related to your account.",
+        "p6": "Confirm your action by clicking \"Yes\"."
+      },
+      "p2": "Similarly, you can subscribe to newsletters from the Coin24.com.ua service."
+    },
+    "5_3": {
+      "title": "How to add a photo (avatar)?",
+      "p1": "To add a photo (avatar) to your profile, follow these steps:",
+      "list": {
+        "p1": "In the <NavLink to=\"/\" className=\"default-link\">main menu of the website</NavLink>, select the \"Profile\" menu item;",
+        "p2": "Go to the <NavLink to=\"/panel/account\" className=\"default-link\">personal account settings</NavLink> (gear icon);",
+        "p3": "Click the \"Change Photo\" button;",
+        "p4": "Select the photo you want to set;"
+      },
+      "p2": "Attention! Your photo should not exceed 5 Mb."
+    }
+  },
+  "6": {
+    "title": "6. Contact Us (Feedback Form).",
+    "6_1": {
+      "title": "To send a message to the administration of the exchange service, follow these steps:",
+      "list": {
+        "p1": "Go to the \"<NavLink to=\"/contacts\" className=\"default-link\">Contacts</NavLink>\" tab;",
+        "p2": "In the \"Name\" field, enter your name;",
+        "p3": "In the \"Surname\" field, enter your surname;",
+        "p4": "In the \"E-mail\" field, enter your email address;",
+        "p5": "In the \"Your Message\" field, write your message to the website administration;",
+        "p6": "Then select the direction \"Non-cash payment\" or \"Cash payment\" depending on the direction of exchange your inquiry relates to;",
+        "p7": "If you have chosen \"Cash payment\", select the country and city of exchange you are interested in;",
+        "p8": "Click the \"Send\" button."
+      },
+      "p1": "If you are logged into your account, the \"Name\", \"Surname\", and \"E-mail\" fields will be automatically filled in;",
+      "p2": "After sending the message, wait for a response to the email address you provided."
+    }
+  }
+}
