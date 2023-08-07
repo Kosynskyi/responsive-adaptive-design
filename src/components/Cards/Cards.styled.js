@@ -79,3 +79,42 @@ export const Text = styled.p`
     color: rgba(255, 255, 255, 0.5);
   }
 `;
+
+export const StyledInputContainerWrapper = styled.div`
+  border: 1px solid brown;
+  padding: 15px;
+
+  label {
+    width: 120px;
+    height: 70px;
+    display: block;
+    border: 1px solid yellow;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    margin-bottom: 5px;
+
+    &:checked {
+      color: red;
+    }
+  }
+
+  /* input:where(button, input, select) {
+    display: none;
+  } */
+
+  /* input[type='radio']:checked {
+    box-shadow: 0 0 0 3px orange;
+  } */
+
+  input[type='radio']:checked {
+    /* Ваші стилі тут */
+    border-color: blue; /* Приклад стилізації рамки для вибраного стану */
+  }
+
+  input[type='radio']:checked + label {
+    font-weight: bold;
+    color: blue;
+  }
+`;
